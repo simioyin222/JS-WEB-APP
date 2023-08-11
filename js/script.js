@@ -21,4 +21,11 @@ document.getElementById("selection-form").addEventListener("submit", function(ev
       resultSection.textContent = "We suggest C#!";
     }
   }
-} 
+} else if (machineLearning === "yes") {
+  if (learningStyle === "yes") {
+    resultSection.textContent = "We suggest Python!";
+  }
+} else {
+  resultSection.textContent = "Maybe consider learning none of them and just giving up!";
+}
+
