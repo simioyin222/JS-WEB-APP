@@ -1,10 +1,24 @@
 document.getElementById("selection-form").addEventListener("submit", function(event) {
   event.preventDefault();
   const devType = document.querySelector("#devType").value;
-  const goalType = document.querySelector("#machinelearning").value;
-  const machineLearning = document.querySelector("#learningStyle").value;
+  const goalType = document.querySelector("#goalType").value;
+  const machineLearning = document.querySelector("#machinelearning").value;
   const learningStyle = document.querySelector("#learningstyle").value;
   const performance = document.querySelector("#performance").value;
 
-  const result
-}
+  const resultSection = document.getElementById("result");
+
+  if (devType === "web") {
+    if (goalType === "no") {
+      if (learningStyle === "yes") {
+        resultSection.textContent = "We suggest Javascript!";
+      }
+    }
+  }
+} else if (devType === "app") {
+  if (goalType === "yes") {
+    if (performance === "no") {
+      resultSection.textContent = "We suggest C#!";
+    }
+  }
+} 
