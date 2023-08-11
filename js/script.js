@@ -29,3 +29,4 @@ document.getElementById("selection-form").addEventListener("submit", function(ev
   resultSection.textContent = "Maybe consider learning none of them and just giving up!";
 }
 
+resultSection.classlist.remove("hidden");
