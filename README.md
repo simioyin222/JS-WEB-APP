@@ -22,7 +22,7 @@ The Programming Language Estimator uses a set of questions to gauge a persons in
 4. Interact with the form to get your programming language suggestion!
 
 ## Known Bugs:
-- As of now, there are no known bugs. If you encounter any issues, please open an issue on the project's GitHub page.
+- The page does not load correct results
 
 ## License Information:
 **MIT License**
