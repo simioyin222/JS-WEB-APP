@@ -1,7 +1,11 @@
 const formElement = document.getElementById("selection-form");
+const resetButton = document.getElementById("resetButton");
 
 formElement.addEventListener("submit", function (event) {
   event.preventDefault();
+  resetButton.addEventListener("click", function () {
+    resultSection.textContent = "";
+  });
 
   let devType = document.querySelector("#devType").value;
   let goalType = document.querySelector("#goalType").value;
