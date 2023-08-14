@@ -9,7 +9,9 @@ body {
   padding: 10px;
 }
 
-label, select, button {
+label,
+select,
+button {
   margin: 5px;
 }
 
