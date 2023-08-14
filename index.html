@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Progamming Language Estimator</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <div class="language-suggester">
-    <h1>Which programming language is right for you?!</h1>
-    <form id="selection-form">
-      <label>Do you like boring web development or fun app development?</label>
-      <select id="devType" name="devType">
-        <option value="web">web development</option>
-        <option value="app">app development</option>
-      </select>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progamming Language Estimator</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="language-suggester">
+      <h1>Which programming language is right for you?!</h1>
+      <form id="selection-form">
+        <label
+          >Do you like boring web development or fun app development?</label
+        >
+        <select id="devType" name="devType">
+          <option value="web">web development</option>
+          <option value="app">app development</option>
+        </select>
 
-      <label>Do you enjoy long rewarding outcomes or fast and efficent wins?</label>
-      <select id="goalType" name="goalType">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+        <label
+          >Do you enjoy long rewarding outcomes or fast and efficent
+          wins?</label
+        >
+        <select id="goalType" name="goalType">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
 
-      <label>Does machine learning make your mind curious?</label>
-      <select id="machineLearning" name="machineLearning">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+        <label>Does machine learning make your mind curious?</label>
+        <select id="machineLearning" name="machineLearning">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
 
-      <label>Do you like to read then learn or practice and learn?</label>
-      <select id="learningStyle" name="learningStyle">
-        <option value="read">Read and Learn</option>
-        <option value="practice">Practice and Learn</option>
-      </select>
+        <label>Do you like to read then learn or practice and learn?</label>
+        <select id="learningStyle" name="learningStyle">
+          <option value="read">Read and Learn</option>
+          <option value="practice">Practice and Learn</option>
+        </select>
 
-      <label>How do feel about processing speeds?</label>
-      <select id="performance" name="performance">
-        <option value="yes">Yeah! I like when things are on go go go!</option>
-        <option value="no">No, patience is key with computers.</option>
-      </select>
+        <label>How do feel about processing speeds?</label>
+        <select id="performance" name="performance">
+          <option value="yes">Yeah! I like when things are on go go go!</option>
+          <option value="no">No, patience is key with computers.</option>
+        </select>
 
-      <button type="submit">Get Suggestion</button>
-    </form>
-    <div id="result" class="hidden"></div>
-  </div>
-  <script src="script.js"></script>
-</body>
+        <button type="submit">Get Suggestion</button>
+      </form>
+      <div id="result" class="hidden"></div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
 </html>
