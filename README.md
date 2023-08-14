@@ -13,7 +13,7 @@ The Programming Language Estimator is a web-based survey tool that assists users
 - Web Browsers' DOM API
 
 ## Detailed Description:
-The Programming Language Estimator uses a set of  5 questions to gauge a persons interests, such as their preference for web development vs. app development, their thoughts on machine learning, their learning style, and more. Based on their responses, the application suggests a programming language that aligns with their input.
+The Programming Language Estimator uses a set of  5 questions to gauge a persons interests. Based on their responses, the application suggests a programming language that aligns with their input.
 
 ## Setup/Installation Instructions:
 1. Clone the repository to your local machine.
