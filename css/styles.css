@@ -15,7 +15,7 @@ button {
   margin: 5px;
 }
 
-button {
+button, #resetButton {
   background: grey;
   color: black;
 }
